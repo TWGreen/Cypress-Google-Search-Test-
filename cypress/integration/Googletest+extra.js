@@ -17,15 +17,5 @@ describe('My First Test', () => {
         cy.get('.MUFPAc > :nth-child(2) > a').click()
         // Verify sportstiger.com appears in search results
         cy.contains('sportstiger.com')
-
-
-
-
-
-
-
     })
-
-
-
 })
